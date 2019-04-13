@@ -13,8 +13,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        assert(1 == 1, "Math failure!")
-        assert(1 == 2, "Math failure!")
+        for i in 1...100 {
+            print("Got number \(i).")
+        }
     }
 }
 
